@@ -1,0 +1,10 @@
+apt update
+apt upgrade -y 
+pkg install git 
+pkg install python 
+pkg install zip
+rm -rf MemeFi 
+git clone https://github.com/TechAnas2/MemeFi
+cd MemeFi
+unzip memefi.zip
+python main.py
